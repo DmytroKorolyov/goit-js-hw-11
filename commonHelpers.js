@@ -20,5 +20,5 @@ import{i as l,S as c}from"./assets/vendor-46aac873.js";(function(){const o=docum
       </li>
     </ul>
   </a>
-</li>`}function f(r){return r.map(m).join("")}function d(r){const o=f(r);a.wrapperPictures.innerHTML=o,new c(".gallery-card a.gallary-card-link",{captionDelay:250,captionsData:"alt"}).refresh()}
+</li>`}function f(r){return r.map(m).join("")}function d(r){const o=f(r);a.wrapperPictures.innerHTML=o,new c(".gallery-card a.gallary-card-link",{captionDelay:250,captionsData:"alt"}).refresh()}Работает;
 //# sourceMappingURL=commonHelpers.js.map
