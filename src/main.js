@@ -110,8 +110,48 @@ function renderPictures(pictures) {
 
 
 
+Работает
 
+// function onSubmitForm(e) {
+//     e.preventDefault();
+//     const symbol = e.target.elements.query.value;
 
+//     // Перевірка, чи введено значення в інпут
+//     if (!symbol.trim()) {
+//         iziToast.error({
+//             message: 'Please enter a search query.',
+//             position: 'topRight',
+//             backgroundColor: '#EF4040',
+//             messageColor: '#FAFAFB',
+//         });
+//         return;
+//     }
+
+//     getPicture(symbol)
+//         .then(data => {
+//             // Перевірка, чи отримано результати від Pixabay API
+//             if (data.hits.length === 0) {
+//                 iziToast.error({
+//                     message: 'No images found for the entered query. Please try again.',
+//                     position: 'topRight',
+//                     backgroundColor: '#EF4040',
+//                     messageColor: '#FAFAFB',
+//                 });
+//             } else {
+//                 renderPictures(data.hits);
+//             }
+//         })
+//         .catch(() => {
+//             iziToast.error({
+//                 message: 'An error occurred while fetching images. Please try again.',
+//                 position: 'topRight',
+//                 backgroundColor: '#EF4040',
+//                 messageColor: '#FAFAFB',
+//             });
+//         });
+
+//     e.target.reset();
+// }
 
 
 
