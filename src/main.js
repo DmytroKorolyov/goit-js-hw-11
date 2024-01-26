@@ -43,10 +43,9 @@ function onSubmitForm(e) {
                 console.log(error)
             })
             .finally(() => {
-                // Приховати індикатор завантаження після завершення запиту
                 loader.style.display = 'none';
             });
-    }, 1000); // 1000 мілісекунд (1 секунда) затримки перед викликом getPicture
+    }, 1000); 
 
     e.target.reset();
 }
